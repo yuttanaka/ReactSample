@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "webpack --mode development",
-    "start": "./node_modules/.bin/webpack-dev-server --content-base --mode development"
+    "start": "./node_modules/.bin/webpack-dev-server --content-base src --mode development --inline"
   },
   "author": "",
   "license": "ISC",
